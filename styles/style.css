@@ -110,9 +110,10 @@ main {
 
 /* inspire styles */
 
-.inspire-container{
+.inspire-container {
     margin-top: 90px;
 }
+
 .inspire-video {
     margin: 48px 0px;
     padding: 32px;
@@ -126,4 +127,76 @@ main {
     height: 600px;
     margin: 10px 0px;
     border-radius: 16px;
+}
+
+/* targets styles */
+
+
+.targets {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.single-target {
+    width: 350px;
+    height: 299px;
+    border-radius: 16px;
+    margin: 18px;
+    padding: 30PX;
+}
+
+.single-target-html {
+    background: rgba(255, 76, 30, 0.05);
+}
+
+.single-target h4 {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.single-target p {
+    color: rgb(13, 19, 33);
+}
+
+.underline-more {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.single-target-css {
+    background: rgba(0, 76, 232, 0.05);
+}
+
+.single-target-js {
+    background: rgba(255, 223, 0, 0.05);
+}
+
+/* footer styles */
+
+footer {
+    background-image: url("../assets/handshake.jpg");
+    text-align: center;
+}
+
+.footer-banner h3 {
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
+}
+
+.footer-banner p {
+    color: white;
+}
+
+footer input[type="text"] {
+    width: 450px;
+    padding: 19px 20px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+}
+
+footer input[type="submit"]{
+    width: 120px;
 }
